@@ -47,7 +47,6 @@ $(function() {
       ulTodos.html(htmlString);
 
       $('.toggle').change(toggleTask);
-
     });
 
     $('#new-form').submit(function(event) {
