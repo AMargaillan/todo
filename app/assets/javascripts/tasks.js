@@ -4,7 +4,7 @@ $(function() {
     function taskHTML(task) {
       var checkedStatus = task.done ? "checked" : "";
         var liClass = task.done ? "checked" : "";
-        var liElement = '<li id+"listItem -' + task.id +'" class="' + liClass + '">' + 
+        var liElement = '<li id="listItem-' + task.id +'" class="' + liClass + '">' + 
         '<div class="view"><input class="toggle" type="checkbox"' +
         " data-id='" + task.id + "'" +
         checkedStatus + 
